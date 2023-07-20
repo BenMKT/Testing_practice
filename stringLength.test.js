@@ -1,5 +1,4 @@
-const { describe } = require('yargs');
-const stringLength = require('./stringLength');
+const stringLength = require('./stringLength.js');
 // test if stringLength is less than 1 or greater than 10 to throw error  
 test('stringLength', () => {
     expect(() => stringLength('')).toThrow('The length of the string must be between 1 and 10 characters long.');
