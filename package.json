@@ -1,0 +1,16 @@
+{
+  "name": "testing_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stringLength.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "jest": "^29.6.1"
+  }
+}
